@@ -1,49 +1,50 @@
----
-output: github_document
----
 
-# magenta
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![Travis-CI Build Status](https://travis-ci.org/mrc-ide/MIPanalyzer.png?branch=master)](https://travis-ci.org/mrc-ide/MIPanalyzer)
+# MIPanalyzer
 
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Travis-CI Build
+Status](https://travis-ci.org/mrc-ide/MIPanalyzer.png?branch=master)](https://travis-ci.org/mrc-ide/MIPanalyzer)
 
 ## Motivation
 
-`MIPanalyzer` is a tool for analyzing MIPs (molecular inversion probe) data. This will usually be in the form of `vcf` files produced by [MIPwrangler](https://github.com/bailey-lab/MIPWrangler).
+`MIPanalyzer` is a tool for analyzing MIPs (molecular inversion probe)
+data. This will usually be in the form of `vcf` files produced by
+[MIPTools](https://github.com/bailey-lab/MIPTools).
 
 ## Installation
 
 You can also install `MIPanalyzer` from github with:
 
-
-```r
+``` r
 #install.packages("devtools")
 devtools::install_github("mrc-ide/MIPanalyzer")
 ```
 
-Note that on Windows, a toolkit (Rtools) needs to be installed separately for devtools to work. 
+Note that on Windows, a toolkit (Rtools) needs to be installed
+separately for devtools to work.
 
 Once installed, the package can be loaded using:
 
-
-```r
+``` r
 # Load the package
 library(MIPanalyzer)
 ```
 
-Documentation
--------------
+## Documentation
 
 *MIPanalyzer* is documented on a [dedicated
- website](https://mrc-ide.github.io/MIPanalyzer).
+website](https://mrc-ide.github.io/MIPanalyzer).
 
 This includes the following vignettes:
 
-- **`Introduction`**: general introduction to using `MIPanalyzer`
+  - **`Introduction`**: general introduction to using `MIPanalyzer`
 
-Contributors
-------------
-- [Bob Verity](https://github.com/bobverity)
-- [OJ Watson](https://github.com/ojwatson)
-- [Nick Brazeau](https://github.com/nickbrazeau)
+## Contributors
+
+  - [Bob Verity](https://github.com/bobverity)
+  - [OJ Watson](https://github.com/ojwatson)
+  - [Nick Brazeau](https://github.com/nickbrazeau)

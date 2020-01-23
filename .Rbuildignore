@@ -17,4 +17,5 @@ vignettes_src
 ^docs$
 docs
 vignettes/introduction_cache
+vignettes/introduction_files
 vignettes_src/introduction_cache

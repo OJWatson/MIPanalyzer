@@ -29,7 +29,7 @@ if (requireNamespace("htmltools", quietly = TRUE)) {
 First install the package
 
 ```{r installation}
-# devtools::install_github("OJWatson/MIPanalyzer")
+# devtools::install_github("mrc-ide/MIPanalyzer")
 ```
 
 Read in a multiallelic vcf, replacing file path as needed:

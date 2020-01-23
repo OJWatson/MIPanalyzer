@@ -1,6 +1,10 @@
 ---
-output: github_document
+output:
+  rmarkdown::github_document
 ---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -8,7 +12,8 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
-# magenta
+
+# MIPanalyzer
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Travis-CI Build Status](https://travis-ci.org/mrc-ide/MIPanalyzer.png?branch=master)](https://travis-ci.org/mrc-ide/MIPanalyzer)
@@ -16,7 +21,7 @@ knitr::opts_chunk$set(
 
 ## Motivation
 
-`MIPanalyzer` is a tool for analyzing MIPs (molecular inversion probe) data. This will usually be in the form of `vcf` files produced by [MIPwrangler](https://github.com/bailey-lab/MIPWrangler).
+`MIPanalyzer` is a tool for analyzing MIPs (molecular inversion probe) data. This will usually be in the form of `vcf` files produced by [MIPTools](https://github.com/bailey-lab/MIPTools).
 
 ## Installation
 
