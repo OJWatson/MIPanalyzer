@@ -85,7 +85,13 @@ vcf2mipanalyzer_biallelic <- function(file = NULL, vcfR = NULL, verbose = TRUE) 
   
   # check that all missing fields correspond between coverage and counts
   if (!identical(is.na(coverage), is.na(counts))) {
+    pos <- which(is.na(coverage) != is.na(counts))
+    if(all(is.na(coverage)) & all(counts == 0)) {
+      coverage[pos] <- 0
+    } 
+    if (!identical(is.na(coverage), is.na(counts))) {
     stop("Cannot have fields that are NA in coverage but not in counts, or vice versa")
+    }
   }
   
   # extract sample info
